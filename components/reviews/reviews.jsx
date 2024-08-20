@@ -2,7 +2,6 @@ import { ReviewCard } from "@/components/ui/card";
 import { clientReviewsData } from "@/constants";
 import { HeroAnimation } from "@/global/Animation";
 import Wrapper from "@/global/wrapper";
-import Avatar from "@/public/images/man.jpg";
 import Heading from "../ui/heading";
 
 const Reviews = () => {
@@ -19,7 +18,7 @@ const Reviews = () => {
           }
         />
         <Wrapper className="flex flex-col items-center justify-center py-12 relative">
-          <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6 w-full md:gap-8 py-10 md:py-20 flex-wrap max-w-4xl">
+          <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-6 w-full md:gap-28 py-10 md:py-20 flex-wrap max-w-4xl max-lg:gap-8">
             {clientReviewsData.map((item, index) => {
               return (
                 <ReviewCard
@@ -27,7 +26,7 @@ const Reviews = () => {
                   name={item.name}
                   handle={item.twitterHandle}
                   review={item.review}
-                  Avatar={Avatar}
+                  Avatar={item.imageUrl}
                 />
               );
             })}

@@ -5,7 +5,7 @@ import FeatureImage from "@/public/svg/dashboard.svg";
 import Image from "next/image";
 const Features = () => {
   return (
-    <div className="bg-white dark:bg-gray-900 text-black dark:text-white p-4">
+    <section className="bg-white dark:bg-gray-900 text-black dark:text-white p-4" id="features">
       <HeroAnimation>
      <Heading title={' Start build your dream website'} textMedium/>
      <Wrapper>
@@ -14,7 +14,7 @@ const Features = () => {
         </div>
      </Wrapper>
       </HeroAnimation>
-    </div>
+    </section>
   );
 };
 

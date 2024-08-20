@@ -1,7 +1,6 @@
 import { navigateBtn as NavBtn } from '@/components/ui/button';
 import { HeroAnimation as Animation } from "@/global/Animation";
 import Wrapper from "@/global/wrapper";
-import { FaArrowRight } from "react-icons/fa6";
 import Heading from "../ui/heading";
 
 const Launch = () => {
@@ -15,7 +14,7 @@ const Launch = () => {
             From Idea to Launch Faster Than Ever
           </h2>
 
-          <NavBtn text={'Get started for free'} path={'/'} icon={<FaArrowRight size={30}  />} />
+          <NavBtn text={'Get start'} path={'/'}   />
         </Wrapper>
       </Animation>
     </div>

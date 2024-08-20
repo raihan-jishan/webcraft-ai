@@ -8,8 +8,9 @@ import {
   NewsLetter,
   Pricing,
   Proccess,
-  Reviews,
+  Reviews
 } from "@/components";
+import Blog from "@/components/blog/blog";
 export default function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function Home() {
       <Reviews />
       <Launch />
       <NewsLetter />
+      <Blog /> 
       <Footer />
     </div>
   );
