@@ -4,7 +4,7 @@ import { Heading } from "../ui";
 import { BlogCard } from "../ui/card";
 const Blog = () => {
   return (
-    <section className="bg-white dark:bg-gray-900 text-black dark:text-white" id="blog">
+    <section className=" bg-gray-900  text-white" id="blog">
       <Animation>
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <Heading

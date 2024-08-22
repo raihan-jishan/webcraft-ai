@@ -6,7 +6,7 @@ import Heading from "../ui/heading";
 
 const Pricing = () => {
   return (
-    <section className="dark:bg-gray-900 py-12 text-black dark:text-white" id="pricing">
+    <section className=" bg-gray-900 py-12  text-white" id="pricing">
       <Animation>
         <Heading
           title={"Pricing"}

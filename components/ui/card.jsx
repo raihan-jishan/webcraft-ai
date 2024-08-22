@@ -171,18 +171,18 @@ const BlogCard = ({
   blogDescription
 }) => {
   return (
-    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <article className="p-6   rounded-lg border   shadow-md  bg-gray-800  border-gray-700">
       <div className="flex justify-between items-center mb-5 text-gray-500">
-        <span className="bg-primary-100 text-primary text-xs inline-flex items-center px-2.5 py-0.5  dark:bg-primary-200 dark:text-primary gap-3 font-semibold border-b border-gray-200">
+        <span className="bg-primary-100  text-xs inline-flex items-center px-2.5 py-0.5  dark:bg-primary-200  text-primary gap-3 font-semibold border-b border-gray-200">
           <LuWallpaper size={20}/>
           {blogTag}
         </span>
         <span className="text-sm">{publishedDate}</span>
       </div>
-      <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      <h2 className="mb-2 text-2xl font-bold tracking-tight    text-white">
         <a href="#">{blogTitle}</a>
       </h2>
-      <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
+      <p className="mb-5 font-light  text-gray-400">
         {blogDescription}
       </p>
       <div className="flex justify-between items-center">

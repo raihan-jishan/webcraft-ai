@@ -6,7 +6,7 @@ import Heading from "../ui/heading";
 
 const Reviews = () => {
   return (
-    <div className="bg-white dark:bg-gray-900 text-black dark:text-white p-4">
+    <div className=" bg-gray-900 text-white p-4">
       <HeroAnimation>
         <Heading
           title={"reviews"}

@@ -5,7 +5,7 @@ import Heading from "../ui/heading";
 
 const Launch = () => {
   return (
-    <div className="dark:bg-gray-900 py-12 text-black dark:text-white">
+    <div className=" bg-gray-900 py-12  text-white">
       <Animation>
         <Heading title={"Launch"} textSmall borderSide />
 

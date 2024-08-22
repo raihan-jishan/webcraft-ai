@@ -5,7 +5,7 @@ import { HeroAnimation as Animation } from "../../global/Animation";
 import Heading from "../ui/heading";
 const Proccess = () => {
   return (
-    <div className="dark:bg-gray-900 py-12 text-black dark:text-white">
+    <div className="bg-gray-900 py-12  text-white">
       <Animation>
         <Heading
           title={"The proccess"}
